@@ -1218,7 +1218,9 @@
 
   // Set the boundaries for probing (where the probe can reach).
   #define MIN_PROBE_EDGE_LEFT 40
-  #define MIN_PROBE_EDGE_RIGHT 220
+  #define MIN_PROBE_EDGE_RIGHT 0
+  #define MIN_PROBE_EDGE_FRONT  10
+  #define MIN_PROBE_EDGE_BACK  10
   // #define FRONT_PROBE_BED_POSITION MIN_PROBE_EDGE
   // #define BACK_PROBE_BED_POSITION (Y_BED_SIZE - (MIN_PROBE_EDGE))
 
